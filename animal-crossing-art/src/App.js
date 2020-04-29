@@ -1,24 +1,31 @@
 import React from 'react';
-import logo from './Nook.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <h1>Animal Crossing: New Horizons Art Completionist's Guide</h1>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>
+        Animal Crossing: New Horizons Completionist's Guide
+      </h1>
+      <div className="container">
+        <div className="table top">
+          <div className="row">
+            <input type="checkbox"></input>
+            <img src="https://gamewith-en.akamaized.net/article_tools/animal-crossing-new-horizons/gacha/a18_r.png"></img>
+            <text>Academic Painting</text>
+          </div>
+        </div>
+        <h3 className="completed-label">
+          Completed
+        </h3>
+        <div className="table bottom">
+         <div className="row">
+            <input type="checkbox"></input>
+            <img src="https://gamewith-en.akamaized.net/article_tools/animal-crossing-new-horizons/gacha/a18_r.png"></img>
+            <text>Academic Painting</text>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
